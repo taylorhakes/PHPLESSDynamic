@@ -11,7 +11,7 @@ REQUIREMENTS
 
 GET STARTED
 
-1. Include a LESS file in your html i.e. <link rel="stylesheet" type="text/css" href="test.less">
+1. Include a LESS file in your html i.e. ```<link rel="stylesheet" type="text/css" href="test.less">```
 
 2. Place less_compile.php in the root of your public folder (might be named something else) => /less_compile.php
 
