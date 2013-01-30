@@ -23,4 +23,5 @@ RewriteRule ^(.+\.less)$ /less_compile.php?file=$1 [L]
 3. Create a folder in public called "compiled" and give Apache write permissions to the folder
 
 NOTES
+
 The LESS files will not be recompiled on every page refresh, only on first load (This is done so it doesn't write when there are not changes and makes pages laod quicker). To the file to recompile each refresh, do a hard refresh or delete browser cache.
