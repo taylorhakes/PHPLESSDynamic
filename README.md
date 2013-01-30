@@ -15,12 +15,12 @@ GET STARTED
 
 2. Place less_compile.php in the root of your public folder (might be named something else) => /less_compile.php
 
-2. Redirect all LESS files to less_compile.php?file=<less_filename>
+3. Redirect all LESS files to less_compile.php?file=<less_filename>
 Here is an example Apache rewrite rule
 
 RewriteRule ^(.+\.less)$ /less_compile.php?file=$1 [L]
 
-3. Create a folder in public called "compiled" and give Apache write permissions to the folder
+4. Create a folder in public called "compiled" and give Apache write permissions to the folder
 
 NOTES
 
