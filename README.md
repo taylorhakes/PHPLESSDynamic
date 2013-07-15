@@ -27,7 +27,7 @@ The LESS files will not be recompiled on every page refresh, only on first load 
 
 The MIT License (MIT)
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2013 Taylor Hakes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
